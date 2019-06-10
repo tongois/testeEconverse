@@ -1,0 +1,393 @@
+/*HEADER =============================================*/
+
+.body{
+	font-family: 'Open Sans', sans-serif;
+}
+.header ul{
+	display: inline-block;	
+}
+
+.header ul li {
+  list-style: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0px 5px;
+}
+
+.header ul li:hover {
+	color: gray;
+}
+
+.marca{
+	margin: 0px 150px;
+}
+.marca img{
+	padding-top: 20px;
+}
+.itens-menu{
+	margin-top: 10px;
+}
+.itens-menu ul li{
+	padding: 0px 15px;
+	font-weight: bolder;
+}
+
+
+/*BANNER ====================================*/
+
+.banner{
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+}
+.banner img{
+	width: 100%;
+	height: auto;
+	
+}
+
+.botao-banner{
+	text-transform: uppercase;
+	position: absolute;
+	top:18%;
+	left: 10%;
+	width: 250px;
+}
+.botao-banner p{
+	font-size: 2.6em;
+	display: inline-block;
+}
+.botao-banner span{
+	font-weight: bolder;
+}
+
+.botao-banner a{
+	font-size: 1.2em;
+	border: solid 1px black;
+	padding: 10px 30px;
+	color: black;
+	font-weight: bolder;
+	text-decoration: none;
+	
+}
+
+.botao-banner a:hover{
+	color: #f2f2f2;
+	background-color: #262626;
+	transition: 0.5s;
+}
+
+.preco{
+	position: absolute;
+	right: 18%;
+	top: 25%;
+	display: inline-block;
+	width: 170px;
+}
+.preco p{
+	font-size: 2.5em;
+	text-align: justify;
+}
+.preco span{
+	font-weight: bolder;
+	font-size: 2.3em;
+	position: relative;
+	right: 20px;
+	bottom: 20px;
+}
+
+/*ITENS-BANNER*/
+.itens-banner{
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 20px;
+}
+
+.itens-banner .item{
+	display: inline-block;
+	width: 140px;
+	position: relative;
+	top: 13px;
+	left: 10px;
+}
+
+.itens-banner p{
+	font-weight: bolder;
+	font-size: 1.2em;
+	margin-bottom: -5px;
+	text-transform: uppercase;
+}
+.itens-banner span{
+	font-size: 0.7em;
+}
+
+
+/*BANNER CONFIRA*/
+
+.container-confira{
+	margin-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+.confira-roupas img{
+	width: 105%;
+}
+.confira-roupas figcaption{
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 1.3em;
+	padding-top: 10px;
+	margin-bottom: 25px;
+	
+}
+
+.confira-roupas a{
+	text-decoration: none;
+	font-weight: bolder;
+	color: black;
+	text-transform: uppercase;
+	border:solid 1px black;
+	padding: 10px 20px;	
+}
+.confira-roupas a:hover{
+	color: #f2f2f2;
+	background-color: #262626;
+	transition: 0.5s;
+}
+/*MARCAS*/
+.marcas{
+	margin-top: 40px;
+}
+.marcas ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+
+/*VITRINE*/
+.vitrine{
+	margin-top: 10px;
+}
+.vitrine h1{
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 1.6em;
+	letter-spacing: 0.2em;
+	
+}
+
+.vitrine h1::after{
+	content: '';
+	display: block;
+	width: 940px;
+	height: 1px;
+	background-color: gray;
+}
+
+
+
+.novidades li{
+	list-style: none;
+	display: inline-block;
+	float: right;
+	position: relative;
+	bottom: 30px;
+	padding-right: 20px;
+}
+.novidades li:hover{
+	border-bottom: solid black;
+	border-bottom-width: 1px;
+}
+
+
+
+.pijama img{
+	width: 65%;
+}
+.pijama figcaption{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.pijama p, .desconto{
+	font-weight: 700;
+	line-height: 5px;
+}
+.pijama figcaption:hover{
+	color: gray;
+}
+.pijama .desconto{
+	position: relative;
+	bottom: 150px;
+}
+
+
+/*KITS*/
+
+.kits{
+	margin-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	text-align: center;
+}
+
+.kits img{
+	width: 90%;
+	height: auto;
+}
+
+
+.kits .conteudo{
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	width: 300px;
+}
+
+.kits .conteudo p{
+	font-weight: bolder;
+	font-size: 2.5em;
+	display: block;
+}
+.kits .conteudo .comprar{
+	display: block;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+	border: solid 2px black;
+	width: 150px;
+	padding: 15px 0px;
+	margin: 0 auto;
+}
+
+.kits .conteudo .comprar:hover{
+	color: #f2f2f2;
+	background-color: #262626;
+	transition: 0.5s;
+}
+
+/*SOBRE*/
+.sobre h2{
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 2em;
+	letter-spacing: 0.2em;
+	margin-top: 30px;
+}
+
+.sobre h2::after{
+	content: '';
+	display: inline-block;
+	background-color: gray;
+	width: 470px;
+	height: 3px;
+}
+
+.sobre p{
+	color: gray;
+	font-size: 0.8em;
+	line-height: 1.9em;
+}
+
+
+/*PROMO-INPUT*/
+
+.promo-input{
+	font-family: 'Open Sans', sans-serif;
+	background-color:  #e6e6e6;
+	padding: 20px 0px;
+	padding-bottom: 45px;
+	margin: 20px 0px;
+}
+.promo-input span{
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+
+.promo-input input{
+	width: 300px;
+	height: 30px;
+}
+.promo-input a{
+	border: solid black;
+	margin-left: -4px;
+	padding: 5px 20px;
+	color: lightgray;
+	background-color: black;
+	text-transform: uppercase;
+}
+
+/*FOOTER LISTA-MARCAS*/
+
+.separador{
+	content: '';
+	display: inline-block;
+	width: 100%;
+	height: 2px;
+	background-color: #d9d9d9;
+}
+.lista-marcas{
+	margin: 30px 20px;
+	display: flex;
+	font-family: 'Open Sans', sans-serif;
+}
+.lista-marcas p{
+	text-transform: uppercase;
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
+
+.lista-marcas ul{
+	margin: 0;
+	padding-left: 1em;
+}
+
+.lista-marcas ul li{
+	list-style: none;
+	font-weight: 600;
+	font-size: 0.8em;
+	color: gray;
+	line-height: 14pt;
+
+}
+
+.glossario{
+	margin-top: 20px;
+}
+.lista-marcas span{
+	padding-left: 20px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.lista-marcas .glossario p{
+	display: inline-block;
+}
+.lista-marcas .glossario{
+	text-align: left;
+}
+
+
+/*FOOTER FORMAS DE PAGAMENTO*/
+.footer p{
+	text-transform: uppercase;
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
+
+.footer ul{
+	margin: 0;
+	padding-left: 1em;
+}
+
+.footer ul li{
+	list-style: none;
+	font-weight: 600;
+	font-size: 0.8em;
+	color: gray;	
+	line-height: 14pt;
+}
+
+
+
+
